@@ -1,0 +1,1 @@
+# legally-operating-businesses-search-app
