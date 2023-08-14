@@ -1,0 +1,1457 @@
+[
+    {
+      "model": "core.business",
+      "pk": 1,
+      "fields": {
+        "business_name": "BARBARINO, JOHN JR.",
+        "industry": "Home Improvement Contractor",
+        "lic_expir_dd": "2017-02-28",
+        "license_creation_date": "2010-02-04",
+        "license_status": "Inactive",
+        "license_type": "Business",
+        "address_city": "MANALAPAN",
+        "address_state": "NJ",
+        "address_borough": "Outside NYC"
+      }
+    },
+    {
+      "model": "core.business",
+      "pk": 2,
+      "fields": {
+        "business_name": "Nieciak, Joseph",
+        "industry": "Sightseeing Guide",
+        "lic_expir_dd": "2024-03-31",
+        "license_creation_date": "2022-01-11",
+        "license_status": "Active",
+        "license_type": "Individual",
+        "address_city": "BROOKLYN",
+        "address_state": "NY",
+        "address_borough": "not-provided"
+      }
+    },
+    {
+      "model": "core.business",
+      "pk": 3,
+      "fields": {
+        "business_name": "Arcaro, Tyler",
+        "industry": "Sightseeing Guide",
+        "lic_expir_dd": "2024-03-31",
+        "license_creation_date": "2017-10-31",
+        "license_status": "Active",
+        "license_type": "Individual",
+        "address_city": "NEW YORK",
+        "address_state": "NY",
+        "address_borough": "not-provided"
+      }
+    },
+    {
+      "model": "core.business",
+      "pk": 4,
+      "fields": {
+        "business_name": "HESSE, DAPHNEE",
+        "industry": "Sightseeing Guide",
+        "lic_expir_dd": "2024-03-31",
+        "license_creation_date": "2018-09-11",
+        "license_status": "Active",
+        "license_type": "Individual",
+        "address_city": "Vancouver",
+        "address_state": "British Columbia",
+        "address_borough": "not-provided"
+      }
+    },
+    {
+      "model": "core.business",
+      "pk": 5,
+      "fields": {
+        "business_name": "ESCOBAR, KEVIN",
+        "industry": "Home Improvement Salesperson",
+        "lic_expir_dd": "2019-02-28",
+        "license_creation_date": "2017-09-01",
+        "license_status": "Inactive",
+        "license_type": "Individual",
+        "address_city": "CHESTER",
+        "address_state": "PA",
+        "address_borough": "not-provided"
+      }
+    },
+    {
+      "model": "core.business",
+      "pk": 6,
+      "fields": {
+        "business_name": "MIRABELLA, DONNA",
+        "industry": "Tow Truck Driver",
+        "lic_expir_dd": "2012-10-31",
+        "license_creation_date": "2011-12-21",
+        "license_status": "Inactive",
+        "license_type": "Individual",
+        "address_city": "STATEN ISLAND",
+        "address_state": "NY",
+        "address_borough": "not-provided"
+      }
+    },
+    {
+      "model": "core.business",
+      "pk": 7,
+      "fields": {
+        "business_name": "BEHAR, LARRY",
+        "industry": "Home Improvement Salesperson",
+        "lic_expir_dd": "2017-02-28",
+        "license_creation_date": "2015-04-20",
+        "license_status": "Inactive",
+        "license_type": "Individual",
+        "address_city": "WANTAGH",
+        "address_state": "NY",
+        "address_borough": "not-provided"
+      }
+    },
+    {
+      "model": "core.business",
+      "pk": 8,
+      "fields": {
+        "business_name": "RACOND, BRUCE I",
+        "industry": "Sightseeing Guide",
+        "lic_expir_dd": "2024-03-31",
+        "license_creation_date": "2000-05-23",
+        "license_status": "Active",
+        "license_type": "Individual",
+        "address_city": "NEW YORK",
+        "address_state": "NY",
+        "address_borough": "not-provided"
+      }
+    },
+    {
+      "model": "core.business",
+      "pk": 9,
+      "fields": {
+        "business_name": "Rodriguez, Juan",
+        "industry": "Tow Truck Driver",
+        "lic_expir_dd": "2016-10-31",
+        "license_creation_date": "2015-10-29",
+        "license_status": "Inactive",
+        "license_type": "Individual",
+        "address_city": "BRONX",
+        "address_state": "NY",
+        "address_borough": "not-provided"
+      }
+    },
+    {
+      "model": "core.business",
+      "pk": 10,
+      "fields": {
+        "business_name": "ABUBAKAR, ALI",
+        "industry": "Ticket Seller",
+        "lic_expir_dd": "2023-07-31",
+        "license_creation_date": "2022-07-15",
+        "license_status": "Active",
+        "license_type": "Individual",
+        "address_city": "BRONX",
+        "address_state": "NY",
+        "address_borough": "not-provided"
+      }
+    },
+    {
+      "model": "core.business",
+      "pk": 11,
+      "fields": {
+        "business_name": "WU, JIAN",
+        "industry": "Auctioneer",
+        "lic_expir_dd": "2016-06-15",
+        "license_creation_date": "2014-04-10",
+        "license_status": "Inactive",
+        "license_type": "Individual",
+        "address_city": "FLUSHING",
+        "address_state": "NY",
+        "address_borough": "not-provided"
+      }
+    },
+    {
+      "model": "core.business",
+      "pk": 12,
+      "fields": {
+        "business_name": "LAMARCHE, CHRISTOPHER JOHN",
+        "industry": "Tow Truck Driver",
+        "lic_expir_dd": "2012-10-31",
+        "license_creation_date": "2011-03-02",
+        "license_status": "Inactive",
+        "license_type": "Individual",
+        "address_city": "BRONX",
+        "address_state": "NY",
+        "address_borough": "not-provided"
+      }
+    },
+    {
+      "model": "core.business",
+      "pk": 13,
+      "fields": {
+        "business_name": "DOUGLAS, BRUCE",
+        "industry": "General Vendor",
+        "lic_expir_dd": "2014-09-30",
+        "license_creation_date": "2012-02-13",
+        "license_status": "Inactive",
+        "license_type": "Individual",
+        "address_city": "ROSEDALE",
+        "address_state": "NY",
+        "address_borough": "not-provided"
+      }
+    },
+    {
+      "model": "core.business",
+      "pk": 14,
+      "fields": {
+        "business_name": "MCLAUGHLIN, MICHAEL P.",
+        "industry": "Home Improvement Salesperson",
+        "lic_expir_dd": "2005-10-31",
+        "license_creation_date": "2001-01-23",
+        "license_status": "Inactive",
+        "license_type": "Individual",
+        "address_city": "BELLMORE",
+        "address_state": "NY",
+        "address_borough": "not-provided"
+      }
+    },
+    {
+      "model": "core.business",
+      "pk": 15,
+      "fields": {
+        "business_name": "NAZLICAN, SULEYMAN",
+        "industry": "Pedicab Driver",
+        "lic_expir_dd": "2014-04-30",
+        "license_creation_date": "2013-04-19",
+        "license_status": "Inactive",
+        "license_type": "Individual",
+        "address_city": "NORTH BALDWIN",
+        "address_state": "NY",
+        "address_borough": "not-provided"
+      }
+    },
+    {
+      "model": "core.business",
+      "pk": 16,
+      "fields": {
+        "business_name": "MENDEZ, DAISY",
+        "industry": "Tow Truck Driver",
+        "lic_expir_dd": "2014-10-31",
+        "license_creation_date": "2014-04-15",
+        "license_status": "Inactive",
+        "license_type": "Individual",
+        "address_city": "STATEN ISLAND",
+        "address_state": "NY",
+        "address_borough": "not-provided"
+      }
+    },
+    {
+      "model": "core.business",
+      "pk": 17,
+      "fields": {
+        "business_name": "AHARON, AVI",
+        "industry": "Locksmith",
+        "lic_expir_dd": "2025-05-31",
+        "license_creation_date": "2018-07-05",
+        "license_status": "Active",
+        "license_type": "Individual",
+        "address_city": "NEW YORK",
+        "address_state": "NY",
+        "address_borough": "not-provided"
+      }
+    },
+    {
+      "model": "core.business",
+      "pk": 18,
+      "fields": {
+        "business_name": "THE GARDENS 75TH STREET OWNERS CORP.",
+        "industry": "Garage",
+        "lic_expir_dd": "2005-03-31",
+        "license_creation_date": "1997-04-08",
+        "license_status": "Inactive",
+        "license_type": "Business",
+        "address_city": "JACKSON HTS",
+        "address_state": "NY",
+        "address_borough": "Queens"
+      }
+    },
+    {
+      "model": "core.business",
+      "pk": 19,
+      "fields": {
+        "business_name": "JALIL, MOHAMMED ABDUL",
+        "industry": "Tobacco Retail Dealer",
+        "lic_expir_dd": "2004-12-31",
+        "license_creation_date": "2001-04-02",
+        "license_status": "Inactive",
+        "license_type": "Business",
+        "address_city": "BROOKLYN",
+        "address_state": "NY",
+        "address_borough": "Brooklyn"
+      }
+    },
+    {
+      "model": "core.business",
+      "pk": 20,
+      "fields": {
+        "business_name": "not-provided",
+        "industry": "Sightseeing Guide",
+        "lic_expir_dd": "2016-03-31",
+        "license_creation_date": "2010-05-10",
+        "license_status": "Inactive",
+        "license_type": "Individual",
+        "address_city": "not-provided",
+        "address_state": "not-provided",
+        "address_borough": "not-provided"
+      }
+    },
+    {
+      "model": "core.business",
+      "pk": 21,
+      "fields": {
+        "business_name": "ALSTON-MCDUFFIE, EDWARD",
+        "industry": "Tow Truck Driver",
+        "lic_expir_dd": "2014-10-31",
+        "license_creation_date": "2008-07-09",
+        "license_status": "Inactive",
+        "license_type": "Individual",
+        "address_city": "BROOKLYN",
+        "address_state": "NY",
+        "address_borough": "not-provided"
+      }
+    },
+    {
+      "model": "core.business",
+      "pk": 22,
+      "fields": {
+        "business_name": "KARAKIS, AHMET",
+        "industry": "Pedicab Driver",
+        "lic_expir_dd": "2016-04-30",
+        "license_creation_date": "2014-03-10",
+        "license_status": "Inactive",
+        "license_type": "Individual",
+        "address_city": "NEW YORK",
+        "address_state": "NY",
+        "address_borough": "not-provided"
+      }
+    },
+    {
+      "model": "core.business",
+      "pk": 23,
+      "fields": {
+        "business_name": "SING WAH LAUNDROMAT INC.",
+        "industry": "Laundries",
+        "lic_expir_dd": "2021-12-31",
+        "license_creation_date": "2017-11-25",
+        "license_status": "Inactive",
+        "license_type": "Business",
+        "address_city": "BROOKLYN",
+        "address_state": "NY",
+        "address_borough": "Brooklyn"
+      }
+    },
+    {
+      "model": "core.business",
+      "pk": 24,
+      "fields": {
+        "business_name": "DCB DELANCEY CORPORATION",
+        "industry": "Sidewalk Cafe",
+        "lic_expir_dd": "2020-05-23",
+        "license_creation_date": "2014-06-09",
+        "license_status": "Inactive",
+        "license_type": "Business",
+        "address_city": "NEW YORK",
+        "address_state": "NY",
+        "address_borough": "Manhattan"
+      }
+    },
+    {
+      "model": "core.business",
+      "pk": 25,
+      "fields": {
+        "business_name": "MD BROADWAY ELECTRONICS LLC",
+        "industry": "Secondhand Dealer - General",
+        "lic_expir_dd": "2021-07-31",
+        "license_creation_date": "2016-06-09",
+        "license_status": "Inactive",
+        "license_type": "Business",
+        "address_city": "BRONX",
+        "address_state": "NY",
+        "address_borough": "Bronx"
+      }
+    },
+    {
+      "model": "core.business",
+      "pk": 26,
+      "fields": {
+        "business_name": "MORTILLARO, PHILIP",
+        "industry": "Locksmith",
+        "lic_expir_dd": "2025-05-31",
+        "license_creation_date": "2005-12-06",
+        "license_status": "Active",
+        "license_type": "Individual",
+        "address_city": "WHIPPANY",
+        "address_state": "NJ",
+        "address_borough": "not-provided"
+      }
+    },
+    {
+      "model": "core.business",
+      "pk": 27,
+      "fields": {
+        "business_name": "L & F Group Inc",
+        "industry": "Electronic & Appliance Service",
+        "lic_expir_dd": "2024-06-30",
+        "license_creation_date": "2022-02-22",
+        "license_status": "Active",
+        "license_type": "Business",
+        "address_city": "NEW YORK",
+        "address_state": "NY",
+        "address_borough": "Manhattan"
+      }
+    },
+    {
+      "model": "core.business",
+      "pk": 28,
+      "fields": {
+        "business_name": "DOWD, TIMOTHY",
+        "industry": "Sightseeing Guide",
+        "lic_expir_dd": "2024-03-31",
+        "license_creation_date": "2022-01-11",
+        "license_status": "Active",
+        "license_type": "Individual",
+        "address_city": "NEW YORK",
+        "address_state": "NY",
+        "address_borough": "not-provided"
+      }
+    },
+    {
+      "model": "core.business",
+      "pk": 29,
+      "fields": {
+        "business_name": "Recovery Racing V LLC",
+        "industry": "Secondhand Dealer - Auto",
+        "lic_expir_dd": "2015-07-31",
+        "license_creation_date": "2013-11-18",
+        "license_status": "Inactive",
+        "license_type": "Business",
+        "address_city": "NEW YORK",
+        "address_state": "NY",
+        "address_borough": "Manhattan"
+      }
+    },
+    {
+      "model": "core.business",
+      "pk": 30,
+      "fields": {
+        "business_name": "Encarnacion, Madally",
+        "industry": "General Vendor",
+        "lic_expir_dd": "2023-09-30",
+        "license_creation_date": "2022-07-19",
+        "license_status": "Active",
+        "license_type": "Individual",
+        "address_city": "BRONX",
+        "address_state": "NY",
+        "address_borough": "not-provided"
+      }
+    },
+    {
+      "model": "core.business",
+      "pk": 31,
+      "fields": {
+        "business_name": "PAKHOMOV, ALEKSANDR",
+        "industry": "Tow Truck Driver",
+        "lic_expir_dd": "2022-10-31",
+        "license_creation_date": "2020-01-07",
+        "license_status": "Inactive",
+        "license_type": "Individual",
+        "address_city": "VALLEY STREAM",
+        "address_state": "NY",
+        "address_borough": "not-provided"
+      }
+    },
+    {
+      "model": "core.business",
+      "pk": 32,
+      "fields": {
+        "business_name": "MD BROADWAY ELECTRONICS LLC",
+        "industry": "Electronic & Appliance Service",
+        "lic_expir_dd": "2024-06-30",
+        "license_creation_date": "2011-07-14",
+        "license_status": "Active",
+        "license_type": "Business",
+        "address_city": "BRONX",
+        "address_state": "NY",
+        "address_borough": "Bronx"
+      }
+    },
+    {
+      "model": "core.business",
+      "pk": 33,
+      "fields": {
+        "business_name": "POLAND EMPLOYMENT AGENCY INC.",
+        "industry": "Employment Agency",
+        "lic_expir_dd": "2024-05-01",
+        "license_creation_date": "2010-06-02",
+        "license_status": "Active",
+        "license_type": "Business",
+        "address_city": "BROOKLYN",
+        "address_state": "NY",
+        "address_borough": "Brooklyn"
+      }
+    },
+    {
+      "model": "core.business",
+      "pk": 34,
+      "fields": {
+        "business_name": "SINBAD INTERNATIONAL INC.",
+        "industry": "Home Improvement Contractor",
+        "lic_expir_dd": "2019-02-28",
+        "license_creation_date": "2012-08-31",
+        "license_status": "Inactive",
+        "license_type": "Business",
+        "address_city": "SUNNYSIDE",
+        "address_state": "NY",
+        "address_borough": "Queens"
+      }
+    },
+    {
+      "model": "core.business",
+      "pk": 35,
+      "fields": {
+        "business_name": "F. J. SCIAME CONSTRUCTION CO., INC.",
+        "industry": "Home Improvement Contractor",
+        "lic_expir_dd": "2009-06-30",
+        "license_creation_date": "2007-09-26",
+        "license_status": "Inactive",
+        "license_type": "Business",
+        "address_city": "NEW YORK",
+        "address_state": "NY",
+        "address_borough": "Manhattan"
+      }
+    },
+    {
+      "model": "core.business",
+      "pk": 36,
+      "fields": {
+        "business_name": "AVENUE D CELLULAR INC",
+        "industry": "Electronic & Appliance Service",
+        "lic_expir_dd": "2024-06-30",
+        "license_creation_date": "2019-08-07",
+        "license_status": "Active",
+        "license_type": "Business",
+        "address_city": "BROOKLYN",
+        "address_state": "NY",
+        "address_borough": "Brooklyn"
+      }
+    },
+    {
+      "model": "core.business",
+      "pk": 37,
+      "fields": {
+        "business_name": "WRIGHT, OMAR",
+        "industry": "Ticket Seller",
+        "lic_expir_dd": "2023-07-31",
+        "license_creation_date": "2023-07-14",
+        "license_status": "Active",
+        "license_type": "Individual",
+        "address_city": "MOUNT VERNON",
+        "address_state": "NY",
+        "address_borough": "not-provided"
+      }
+    },
+    {
+      "model": "core.business",
+      "pk": 38,
+      "fields": {
+        "business_name": "2474 QUAD VENTURES INC.",
+        "industry": "Tobacco Retail Dealer",
+        "lic_expir_dd": "2020-12-31",
+        "license_creation_date": "2013-12-02",
+        "license_status": "Inactive",
+        "license_type": "Business",
+        "address_city": "BROOKLYN",
+        "address_state": "NY",
+        "address_borough": "Brooklyn"
+      }
+    },
+    {
+      "model": "core.business",
+      "pk": 39,
+      "fields": {
+        "business_name": "IL RIFUGIO INC.",
+        "industry": "Sidewalk Cafe",
+        "lic_expir_dd": "2020-08-17",
+        "license_creation_date": "2011-02-09",
+        "license_status": "Inactive",
+        "license_type": "Business",
+        "address_city": "NEW YORK",
+        "address_state": "NY",
+        "address_borough": "Manhattan"
+      }
+    },
+    {
+      "model": "core.business",
+      "pk": 40,
+      "fields": {
+        "business_name": "JASANI, MUNIRA",
+        "industry": "Electronic Cigarette Dealer",
+        "lic_expir_dd": "2023-11-30",
+        "license_creation_date": "2018-06-21",
+        "license_status": "Active",
+        "license_type": "Business",
+        "address_city": "NEW YORK",
+        "address_state": "NY",
+        "address_borough": "Manhattan"
+      }
+    },
+    {
+      "model": "core.business",
+      "pk": 41,
+      "fields": {
+        "business_name": "ORIFZODA, SAIDDZHONI",
+        "industry": "Pedicab Driver",
+        "lic_expir_dd": "2024-04-30",
+        "license_creation_date": "2023-03-08",
+        "license_status": "Active",
+        "license_type": "Individual",
+        "address_city": "NEW YORK",
+        "address_state": "NY",
+        "address_borough": "not-provided"
+      }
+    },
+    {
+      "model": "core.business",
+      "pk": 42,
+      "fields": {
+        "business_name": "ARC. Construction & Contracting Corp.",
+        "industry": "Home Improvement Contractor",
+        "lic_expir_dd": "2017-02-28",
+        "license_creation_date": "2015-08-12",
+        "license_status": "Inactive",
+        "license_type": "Business",
+        "address_city": "NEW YORK",
+        "address_state": "NY",
+        "address_borough": "Manhattan"
+      }
+    },
+    {
+      "model": "core.business",
+      "pk": 43,
+      "fields": {
+        "business_name": "ON POINT MOBILE CORP",
+        "industry": "Electronic & Appliance Service",
+        "lic_expir_dd": "2024-06-30",
+        "license_creation_date": "2014-11-24",
+        "license_status": "Active",
+        "license_type": "Business",
+        "address_city": "JAMAICA",
+        "address_state": "NY",
+        "address_borough": "Queens"
+      }
+    },
+    {
+      "model": "core.business",
+      "pk": 44,
+      "fields": {
+        "business_name": "PATEL, HANSA M",
+        "industry": "Newsstand",
+        "lic_expir_dd": "2024-09-30",
+        "license_creation_date": "2000-09-19",
+        "license_status": "Active",
+        "license_type": "Business",
+        "address_city": "NEW YORK",
+        "address_state": "NY",
+        "address_borough": "Manhattan"
+      }
+    },
+    {
+      "model": "core.business",
+      "pk": 45,
+      "fields": {
+        "business_name": "RED PLANET INC.",
+        "industry": "Tobacco Retail Dealer",
+        "lic_expir_dd": "2020-12-31",
+        "license_creation_date": "2015-11-20",
+        "license_status": "Inactive",
+        "license_type": "Business",
+        "address_city": "BROOKLYN",
+        "address_state": "NY",
+        "address_borough": "Brooklyn"
+      }
+    },
+    {
+      "model": "core.business",
+      "pk": 46,
+      "fields": {
+        "business_name": "PYUN, KISUN",
+        "industry": "Tobacco Retail Dealer",
+        "lic_expir_dd": "2022-12-31",
+        "license_creation_date": "2009-09-21",
+        "license_status": "Inactive",
+        "license_type": "Business",
+        "address_city": "STATEN ISLAND",
+        "address_state": "NY",
+        "address_borough": "Staten Island"
+      }
+    },
+    {
+      "model": "core.business",
+      "pk": 47,
+      "fields": {
+        "business_name": "HIERS, DRAYTON",
+        "industry": "Sightseeing Guide",
+        "lic_expir_dd": "2024-03-31",
+        "license_creation_date": "2022-07-15",
+        "license_status": "Active",
+        "license_type": "Individual",
+        "address_city": "FLUSHING",
+        "address_state": "NY",
+        "address_borough": "not-provided"
+      }
+    },
+    {
+      "model": "core.business",
+      "pk": 48,
+      "fields": {
+        "business_name": "STARBUCKS CORPORATION",
+        "industry": "Sidewalk Cafe",
+        "lic_expir_dd": "2020-05-27",
+        "license_creation_date": "2006-08-25",
+        "license_status": "Inactive",
+        "license_type": "Business",
+        "address_city": "BROOKLYN",
+        "address_state": "NY",
+        "address_borough": "Brooklyn"
+      }
+    },
+    {
+      "model": "core.business",
+      "pk": 49,
+      "fields": {
+        "business_name": "FIGUEROA, JONATHAN",
+        "industry": "Locksmith",
+        "lic_expir_dd": "2025-05-31",
+        "license_creation_date": "2018-03-30",
+        "license_status": "Active",
+        "license_type": "Individual",
+        "address_city": "BROOKLYN",
+        "address_state": "NY",
+        "address_borough": "not-provided"
+      }
+    },
+    {
+      "model": "core.business",
+      "pk": 50,
+      "fields": {
+        "business_name": "SIEH, CHRISTINA",
+        "industry": "General Vendor",
+        "lic_expir_dd": "2023-09-30",
+        "license_creation_date": "2022-07-21",
+        "license_status": "Active",
+        "license_type": "Individual",
+        "address_city": "BRONX",
+        "address_state": "NY",
+        "address_borough": "not-provided"
+      }
+    },
+    {
+      "model": "core.business",
+      "pk": 51,
+      "fields": {
+        "business_name": "GM INTERNET CAFE, INC.",
+        "industry": "Electronic & Appliance Service",
+        "lic_expir_dd": "2024-06-30",
+        "license_creation_date": "2011-04-07",
+        "license_status": "Active",
+        "license_type": "Business",
+        "address_city": "BROOKLYN",
+        "address_state": "NY",
+        "address_borough": "Brooklyn"
+      }
+    },
+    {
+      "model": "core.business",
+      "pk": 52,
+      "fields": {
+        "business_name": "OLSEN NEWS CORP.",
+        "industry": "Tobacco Retail Dealer",
+        "lic_expir_dd": "2023-12-31",
+        "license_creation_date": "2004-08-27",
+        "license_status": "Active",
+        "license_type": "Business",
+        "address_city": "NEW YORK",
+        "address_state": "NY",
+        "address_borough": "Manhattan"
+      }
+    },
+    {
+      "model": "core.business",
+      "pk": 53,
+      "fields": {
+        "business_name": "301 PARK CORP.",
+        "industry": "Garage",
+        "lic_expir_dd": "2025-03-31",
+        "license_creation_date": "1997-03-25",
+        "license_status": "Active",
+        "license_type": "Business",
+        "address_city": "NEW YORK",
+        "address_state": "NY",
+        "address_borough": "Manhattan"
+      }
+    },
+    {
+      "model": "core.business",
+      "pk": 54,
+      "fields": {
+        "business_name": "JUAN, CARLOS  FELIZ",
+        "industry": "Electronic & Appliance Service",
+        "lic_expir_dd": "2024-06-30",
+        "license_creation_date": "2015-12-11",
+        "license_status": "Active",
+        "license_type": "Business",
+        "address_city": "NEW YORK",
+        "address_state": "NY",
+        "address_borough": "Manhattan"
+      }
+    },
+    {
+      "model": "core.business",
+      "pk": 55,
+      "fields": {
+        "business_name": "ALB TECH CONTRUCTION INC",
+        "industry": "Home Improvement Contractor",
+        "lic_expir_dd": "2023-02-28",
+        "license_creation_date": "2020-02-13",
+        "license_status": "Inactive",
+        "license_type": "Business",
+        "address_city": "BROOKLYN",
+        "address_state": "NY",
+        "address_borough": "Brooklyn"
+      }
+    },
+    {
+      "model": "core.business",
+      "pk": 56,
+      "fields": {
+        "business_name": "JAKA, ZION",
+        "industry": "Locksmith",
+        "lic_expir_dd": "2025-05-31",
+        "license_creation_date": "2003-05-23",
+        "license_status": "Active",
+        "license_type": "Individual",
+        "address_city": "NEW YORK",
+        "address_state": "NY",
+        "address_borough": "not-provided"
+      }
+    },
+    {
+      "model": "core.business",
+      "pk": 57,
+      "fields": {
+        "business_name": "TOUGNON, KOKOU",
+        "industry": "Ticket Seller",
+        "lic_expir_dd": "2023-07-31",
+        "license_creation_date": "2016-07-26",
+        "license_status": "Active",
+        "license_type": "Individual",
+        "address_city": "BRONX",
+        "address_state": "NY",
+        "address_borough": "not-provided"
+      }
+    },
+    {
+      "model": "core.business",
+      "pk": 58,
+      "fields": {
+        "business_name": "YAEL A ROSARIO AND MELVIN A GRULLART",
+        "industry": "Electronic & Appliance Service",
+        "lic_expir_dd": "2024-06-30",
+        "license_creation_date": "2019-03-21",
+        "license_status": "Active",
+        "license_type": "Business",
+        "address_city": "BRONX",
+        "address_state": "NY",
+        "address_borough": "Bronx"
+      }
+    },
+    {
+      "model": "core.business",
+      "pk": 59,
+      "fields": {
+        "business_name": "MOM ELECTRONICES INC",
+        "industry": "Electronic & Appliance Service",
+        "lic_expir_dd": "2024-06-30",
+        "license_creation_date": "2018-10-09",
+        "license_status": "Active",
+        "license_type": "Business",
+        "address_city": "JAMAICA",
+        "address_state": "NY",
+        "address_borough": "Queens"
+      }
+    },
+    {
+      "model": "core.business",
+      "pk": 60,
+      "fields": {
+        "business_name": "WARRANTY LOGISTICS LLC",
+        "industry": "Electronic & Appliance Service",
+        "lic_expir_dd": "2024-06-30",
+        "license_creation_date": "2017-05-04",
+        "license_status": "Active",
+        "license_type": "Business",
+        "address_city": "BROOKLYN",
+        "address_state": "NY",
+        "address_borough": "Brooklyn"
+      }
+    },
+    {
+      "model": "core.business",
+      "pk": 61,
+      "fields": {
+        "business_name": "ASTORIA BRICK, LLC",
+        "industry": "Sidewalk Cafe",
+        "lic_expir_dd": "2020-05-25",
+        "license_creation_date": "2014-07-17",
+        "license_status": "Inactive",
+        "license_type": "Business",
+        "address_city": "ASTORIA",
+        "address_state": "NY",
+        "address_borough": "Queens"
+      }
+    },
+    {
+      "model": "core.business",
+      "pk": 62,
+      "fields": {
+        "business_name": "HUANG, XIAO",
+        "industry": "General Vendor",
+        "lic_expir_dd": "2023-09-30",
+        "license_creation_date": "2022-07-15",
+        "license_status": "Active",
+        "license_type": "Individual",
+        "address_city": "BROOKLYN",
+        "address_state": "NY",
+        "address_borough": "not-provided"
+      }
+    },
+    {
+      "model": "core.business",
+      "pk": 63,
+      "fields": {
+        "business_name": "SYLVIA WOODS, INC.",
+        "industry": "Sidewalk Cafe",
+        "lic_expir_dd": "2020-05-27",
+        "license_creation_date": "2009-06-25",
+        "license_status": "Inactive",
+        "license_type": "Business",
+        "address_city": "NEW YORK",
+        "address_state": "NY",
+        "address_borough": "Manhattan"
+      }
+    },
+    {
+      "model": "core.business",
+      "pk": 64,
+      "fields": {
+        "business_name": "JABATEH, ABDULLAH",
+        "industry": "Ticket Seller",
+        "lic_expir_dd": "2023-07-31",
+        "license_creation_date": "2016-07-13",
+        "license_status": "Active",
+        "license_type": "Individual",
+        "address_city": "BRONX",
+        "address_state": "NY",
+        "address_borough": "not-provided"
+      }
+    },
+    {
+      "model": "core.business",
+      "pk": 65,
+      "fields": {
+        "business_name": "SPECTRUM WIRELESS, INC.",
+        "industry": "Electronics Store",
+        "lic_expir_dd": "2018-12-31",
+        "license_creation_date": "2017-05-03",
+        "license_status": "Inactive",
+        "license_type": "Business",
+        "address_city": "BRONX",
+        "address_state": "NY",
+        "address_borough": "Bronx"
+      }
+    },
+    {
+      "model": "core.business",
+      "pk": 66,
+      "fields": {
+        "business_name": "TOP NOTCH SOUND & SECURITY LLC",
+        "industry": "Electronic & Appliance Service",
+        "lic_expir_dd": "2024-06-30",
+        "license_creation_date": "2022-07-07",
+        "license_status": "Active",
+        "license_type": "Business",
+        "address_city": "BRONX",
+        "address_state": "NY",
+        "address_borough": "Bronx"
+      }
+    },
+    {
+      "model": "core.business",
+      "pk": 67,
+      "fields": {
+        "business_name": "141 BROADWAY WIRELESS INC",
+        "industry": "Electronic & Appliance Service",
+        "lic_expir_dd": "2024-06-30",
+        "license_creation_date": "2019-01-17",
+        "license_status": "Active",
+        "license_type": "Business",
+        "address_city": "NEW YORK",
+        "address_state": "NY",
+        "address_borough": "Manhattan"
+      }
+    },
+    {
+      "model": "core.business",
+      "pk": 68,
+      "fields": {
+        "business_name": "MARGARITAS MEXICAN DELI CORP.",
+        "industry": "Stoop Line Stand",
+        "lic_expir_dd": "2024-03-31",
+        "license_creation_date": "2022-07-18",
+        "license_status": "Active",
+        "license_type": "Business",
+        "address_city": "JACKSON HEIGHTS",
+        "address_state": "NY",
+        "address_borough": "Queens"
+      }
+    },
+    {
+      "model": "core.business",
+      "pk": 69,
+      "fields": {
+        "business_name": "CYBERXPRESS CORP.",
+        "industry": "Electronics Store",
+        "lic_expir_dd": "2006-12-31",
+        "license_creation_date": "2005-03-02",
+        "license_status": "Inactive",
+        "license_type": "Business",
+        "address_city": "BROOKLYN",
+        "address_state": "NY",
+        "address_borough": "Brooklyn"
+      }
+    },
+    {
+      "model": "core.business",
+      "pk": 70,
+      "fields": {
+        "business_name": "MARRERO CONSTRUCTION CORP.",
+        "industry": "Home Improvement Contractor",
+        "lic_expir_dd": "2005-06-30",
+        "license_creation_date": "2000-09-18",
+        "license_status": "Inactive",
+        "license_type": "Business",
+        "address_city": "BROOKLYN",
+        "address_state": "NY",
+        "address_borough": "Brooklyn"
+      }
+    },
+    {
+      "model": "core.business",
+      "pk": 71,
+      "fields": {
+        "business_name": "ALI, SALEM M.",
+        "industry": "Tobacco Retail Dealer",
+        "lic_expir_dd": "2008-12-31",
+        "license_creation_date": "2007-03-01",
+        "license_status": "Inactive",
+        "license_type": "Business",
+        "address_city": "BROOKLYN",
+        "address_state": "NY",
+        "address_borough": "Brooklyn"
+      }
+    },
+    {
+      "model": "core.business",
+      "pk": 72,
+      "fields": {
+        "business_name": "DOLPHIN TRANSMISSIONS INC",
+        "industry": "Tow Truck Company",
+        "lic_expir_dd": "2024-04-30",
+        "license_creation_date": "2012-04-20",
+        "license_status": "Inactive",
+        "license_type": "Business",
+        "address_city": "BROOKLYN",
+        "address_state": "NY",
+        "address_borough": "Brooklyn"
+      }
+    },
+    {
+      "model": "core.business",
+      "pk": 73,
+      "fields": {
+        "business_name": "PARTS ARE US, INC.",
+        "industry": "Secondhand Dealer - Auto",
+        "lic_expir_dd": "2023-07-31",
+        "license_creation_date": "2003-07-11",
+        "license_status": "Inactive",
+        "license_type": "Business",
+        "address_city": "RIDGEWOOD",
+        "address_state": "NY",
+        "address_borough": "Queens"
+      }
+    },
+    {
+      "model": "core.business",
+      "pk": 74,
+      "fields": {
+        "business_name": "HASSAN, AYINKE",
+        "industry": "Ticket Seller",
+        "lic_expir_dd": "2023-07-31",
+        "license_creation_date": "2022-07-21",
+        "license_status": "Active",
+        "license_type": "Individual",
+        "address_city": "FAR ROCKAWAY",
+        "address_state": "NY",
+        "address_borough": "not-provided"
+      }
+    },
+    {
+      "model": "core.business",
+      "pk": 75,
+      "fields": {
+        "business_name": "ECOATM LLC",
+        "industry": "Secondhand Dealer - General",
+        "lic_expir_dd": "2023-07-31",
+        "license_creation_date": "2022-07-15",
+        "license_status": "Active",
+        "license_type": "Business",
+        "address_city": "BRONX",
+        "address_state": "NY",
+        "address_borough": "Bronx"
+      }
+    },
+    {
+      "model": "core.business",
+      "pk": 76,
+      "fields": {
+        "business_name": "SANOGO, MOUSSA",
+        "industry": "Tow Truck Driver",
+        "lic_expir_dd": "2024-10-31",
+        "license_creation_date": "2022-07-15",
+        "license_status": "Active",
+        "license_type": "Individual",
+        "address_city": "BROOKLYN",
+        "address_state": "NY",
+        "address_borough": "not-provided"
+      }
+    },
+    {
+      "model": "core.business",
+      "pk": 77,
+      "fields": {
+        "business_name": "MOBITEL NEW YORK INC",
+        "industry": "Electronic & Appliance Service",
+        "lic_expir_dd": "2024-06-30",
+        "license_creation_date": "2018-09-25",
+        "license_status": "Active",
+        "license_type": "Business",
+        "address_city": "NEW YORK",
+        "address_state": "NY",
+        "address_borough": "Manhattan"
+      }
+    },
+    {
+      "model": "core.business",
+      "pk": 78,
+      "fields": {
+        "business_name": "YUKI WIRELESS INC",
+        "industry": "Electronic & Appliance Service",
+        "lic_expir_dd": "2024-06-30",
+        "license_creation_date": "2019-09-10",
+        "license_status": "Active",
+        "license_type": "Business",
+        "address_city": "BROOKLYN",
+        "address_state": "NY",
+        "address_borough": "Brooklyn"
+      }
+    },
+    {
+      "model": "core.business",
+      "pk": 79,
+      "fields": {
+        "business_name": "PATEL, DAKSHA",
+        "industry": "Newsstand",
+        "lic_expir_dd": "2024-09-30",
+        "license_creation_date": "2002-09-18",
+        "license_status": "Active",
+        "license_type": "Business",
+        "address_city": "NEW YORK",
+        "address_state": "NY",
+        "address_borough": "Manhattan"
+      }
+    },
+    {
+      "model": "core.business",
+      "pk": 80,
+      "fields": {
+        "business_name": "ASTORIA CENTER INC",
+        "industry": "Tobacco Retail Dealer",
+        "lic_expir_dd": "2023-12-31",
+        "license_creation_date": "2014-12-05",
+        "license_status": "Active",
+        "license_type": "Business",
+        "address_city": "ASTORIA",
+        "address_state": "NY",
+        "address_borough": "Queens"
+      }
+    },
+    {
+      "model": "core.business",
+      "pk": 81,
+      "fields": {
+        "business_name": "VAPE MADE EASIER CORP",
+        "industry": "Electronic Cigarette Dealer",
+        "lic_expir_dd": "2023-11-30",
+        "license_creation_date": "2020-06-16",
+        "license_status": "Active",
+        "license_type": "Business",
+        "address_city": "BROOKLYN",
+        "address_state": "NY",
+        "address_borough": "Brooklyn"
+      }
+    },
+    {
+      "model": "core.business",
+      "pk": 82,
+      "fields": {
+        "business_name": "PRIMAVERA DELI GROCERY CORP",
+        "industry": "Tobacco Retail Dealer",
+        "lic_expir_dd": "2022-12-31",
+        "license_creation_date": "2011-03-22",
+        "license_status": "Inactive",
+        "license_type": "Business",
+        "address_city": "BRONX",
+        "address_state": "NY",
+        "address_borough": "Bronx"
+      }
+    },
+    {
+      "model": "core.business",
+      "pk": 83,
+      "fields": {
+        "business_name": "Pruitt, Blake",
+        "industry": "Sightseeing Guide",
+        "lic_expir_dd": "2024-03-31",
+        "license_creation_date": "2022-04-22",
+        "license_status": "Active",
+        "license_type": "Individual",
+        "address_city": "NEW YORK",
+        "address_state": "NY",
+        "address_borough": "not-provided"
+      }
+    },
+    {
+      "model": "core.business",
+      "pk": 84,
+      "fields": {
+        "business_name": "DOOKHAN, HAROLD",
+        "industry": "Tobacco Retail Dealer",
+        "lic_expir_dd": "2004-12-31",
+        "license_creation_date": "2001-01-05",
+        "license_status": "Inactive",
+        "license_type": "Business",
+        "address_city": "OZONE PARK",
+        "address_state": "NY",
+        "address_borough": "Queens"
+      }
+    },
+    {
+      "model": "core.business",
+      "pk": 85,
+      "fields": {
+        "business_name": "ALMARDAHI, NABIL H",
+        "industry": "Stoop Line Stand",
+        "lic_expir_dd": "2004-03-31",
+        "license_creation_date": "2001-07-25",
+        "license_status": "Inactive",
+        "license_type": "Business",
+        "address_city": "BROOKLYN",
+        "address_state": "NY",
+        "address_borough": "Brooklyn"
+      }
+    },
+    {
+      "model": "core.business",
+      "pk": 86,
+      "fields": {
+        "business_name": "WHITLEY, JOSEPH A",
+        "industry": "Tow Truck Driver",
+        "lic_expir_dd": "2024-10-31",
+        "license_creation_date": "2015-02-17",
+        "license_status": "Active",
+        "license_type": "Individual",
+        "address_city": "BRONX",
+        "address_state": "NY",
+        "address_borough": "not-provided"
+      }
+    },
+    {
+      "model": "core.business",
+      "pk": 87,
+      "fields": {
+        "business_name": "ECOATM LLC",
+        "industry": "Secondhand Dealer - General",
+        "lic_expir_dd": "2023-07-31",
+        "license_creation_date": "2022-07-15",
+        "license_status": "Active",
+        "license_type": "Business",
+        "address_city": "JAMAICA",
+        "address_state": "NY",
+        "address_borough": "Queens"
+      }
+    },
+    {
+      "model": "core.business",
+      "pk": 88,
+      "fields": {
+        "business_name": "TCC WIRELESS, INC.",
+        "industry": "Secondhand Dealer - General",
+        "lic_expir_dd": "2023-07-31",
+        "license_creation_date": "2017-06-08",
+        "license_status": "Active",
+        "license_type": "Business",
+        "address_city": "STATEN ISLAND",
+        "address_state": "NY",
+        "address_borough": "Staten Island"
+      }
+    },
+    {
+      "model": "core.business",
+      "pk": 89,
+      "fields": {
+        "business_name": "CHAMPION PARKING 90 LLC",
+        "industry": "Garage",
+        "lic_expir_dd": "2025-03-31",
+        "license_creation_date": "2012-08-07",
+        "license_status": "Active",
+        "license_type": "Business",
+        "address_city": "NEW YORK",
+        "address_state": "NY",
+        "address_borough": "Manhattan"
+      }
+    },
+    {
+      "model": "core.business",
+      "pk": 90,
+      "fields": {
+        "business_name": "82ND DELI & GROCERY INC",
+        "industry": "Electronic Cigarette Dealer",
+        "lic_expir_dd": "2023-11-30",
+        "license_creation_date": "2020-10-09",
+        "license_status": "Inactive",
+        "license_type": "Business",
+        "address_city": "BROOKLYN",
+        "address_state": "NY",
+        "address_borough": "Brooklyn"
+      }
+    },
+    {
+      "model": "core.business",
+      "pk": 91,
+      "fields": {
+        "business_name": "BRICK TECH CONTRACTING CORP",
+        "industry": "Home Improvement Contractor",
+        "lic_expir_dd": "2025-02-28",
+        "license_creation_date": "2019-07-19",
+        "license_status": "Active",
+        "license_type": "Business",
+        "address_city": "ELMONT",
+        "address_state": "NY",
+        "address_borough": "Outside NYC"
+      }
+    },
+    {
+      "model": "core.business",
+      "pk": 92,
+      "fields": {
+        "business_name": "SHORTY WIRELESS INC",
+        "industry": "Electronic & Appliance Service",
+        "lic_expir_dd": "2024-06-30",
+        "license_creation_date": "2018-06-25",
+        "license_status": "Active",
+        "license_type": "Business",
+        "address_city": "BROOKLYN",
+        "address_state": "NY",
+        "address_borough": "Brooklyn"
+      }
+    },
+    {
+      "model": "core.business",
+      "pk": 93,
+      "fields": {
+        "business_name": "POLY ORGANIC CORP.",
+        "industry": "Laundries",
+        "lic_expir_dd": "2023-12-31",
+        "license_creation_date": "2018-01-12",
+        "license_status": "Active",
+        "license_type": "Business",
+        "address_city": "NEW YORK",
+        "address_state": "NY",
+        "address_borough": "Manhattan"
+      }
+    },
+    {
+      "model": "core.business",
+      "pk": 94,
+      "fields": {
+        "business_name": "Tony Phone Repair Inc.",
+        "industry": "Electronics Store",
+        "lic_expir_dd": "2024-12-31",
+        "license_creation_date": "2022-07-21",
+        "license_status": "Active",
+        "license_type": "Business",
+        "address_city": "BROOKLYN",
+        "address_state": "NY",
+        "address_borough": "Brooklyn"
+      }
+    },
+    {
+      "model": "core.business",
+      "pk": 95,
+      "fields": {
+        "business_name": "JIRR COMMUNICATIONS, INC",
+        "industry": "Electronics Store",
+        "lic_expir_dd": "2020-12-31",
+        "license_creation_date": "2017-01-09",
+        "license_status": "Inactive",
+        "license_type": "Business",
+        "address_city": "BRONX",
+        "address_state": "NY",
+        "address_borough": "Bronx"
+      }
+    },
+    {
+      "model": "core.business",
+      "pk": 96,
+      "fields": {
+        "business_name": "COVO, AIMEE E",
+        "industry": "Sightseeing Guide",
+        "lic_expir_dd": "2024-03-31",
+        "license_creation_date": "2007-07-13",
+        "license_status": "Active",
+        "license_type": "Individual",
+        "address_city": "NEW YORK",
+        "address_state": "NY",
+        "address_borough": "not-provided"
+      }
+    },
+    {
+      "model": "core.business",
+      "pk": 97,
+      "fields": {
+        "business_name": "QUIK PARK 801 GARAGE LLC",
+        "industry": "Garage and Parking Lot",
+        "lic_expir_dd": "2020-05-28",
+        "license_creation_date": "2015-09-17",
+        "license_status": "Inactive",
+        "license_type": "Business",
+        "address_city": "NEW YORK",
+        "address_state": "NY",
+        "address_borough": "Manhattan"
+      }
+    }
+  ]
