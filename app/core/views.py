@@ -47,7 +47,7 @@ def business_list(request):
 
 @extend_schema(
     summary="Get businesess by their license status",
-    description="Get businesses by license status and range of creation dates",
+    description="Get businesses by license status and range of creation/expiration dates. Date format should be like: yyyy-mm-dd",
     parameters=[
         OpenApiParameter(
             name="license_status",
@@ -55,27 +55,75 @@ def business_list(request):
             type=str,
             enum=["Active", "Inactive"],
         ),
-        OpenApiParameter(name="begin_date", required=True, type=str),
-        OpenApiParameter(name="end_date", required=True, type=str),
+        OpenApiParameter(
+            name="license_date_type",
+            required=False,
+            type=str,
+            enum=["Creation", "Expiration"],
+        ),
+        OpenApiParameter(name="begin_date", required=False, type=str),
+        OpenApiParameter(name="end_date", required=False, type=str),
     ],
     responses={
         200: inline_serializer(
-            name="License", fields={"license_status": serializers.CharField()}
+            name="License",
+            fields={"license_status": serializers.CharField()},
         ),
     },
 )
 @api_view(["GET"])
 def business_license_status(request):
     filter_kwargs = {}
+    filter_name = ""
+
+    if (
+        not request.GET.get("license_date_type")
+        and not request.GET.get("begin_date")
+        and not request.GET.get("end_date")
+    ):
+        license_status = request.GET.get("license_status")
+        filter_kwargs["license_status"] = license_status
+        instance = Business.objects.filter(**filter_kwargs)
+        count_businesses = Business.objects.filter(**filter_kwargs).count()
+        serializer = BusinessSerializer(instance, many=True)
+        return Response(
+            {"number_of_businesses": count_businesses, "businesses": serializer.data}
+        )
+    elif (
+        request.GET.get("license_date_type")
+        and not request.GET.get("begin_date")
+        or not request.GET.get("end_date")
+    ):
+        return Response(
+            {"error": "Please provide begin_date and end_date."}, status=400
+        )
+    elif (
+        not request.GET.get("license_date_type")
+        and request.GET.get("begin_date")
+        and request.GET.get("end_date")
+    ):
+        return Response({"error": "Please provide license_date_type."}, status=400)
+
     license_status = request.GET.get("license_status")
+    license_date_type = request.GET.get("license_date_type")
     start_date_str = request.GET.get("begin_date")
     end_date_str = request.GET.get("end_date")
+
     start_date = datetime.strptime(start_date_str, "%Y-%m-%d").date()
     end_date = datetime.strptime(end_date_str, "%Y-%m-%d").date()
-    if license_status and start_date and end_date:
-        filter_kwargs["license_status"] = license_status
-        filter_kwargs["license_creation_date__gte"] = start_date
-        filter_kwargs["license_creation_date__lte"] = end_date
+
+    if license_date_type == "Creation":
+        filter_name = "license_creation_date"
+    else:
+        filter_name = "lic_expir_dd"
+
+    filter_kwargs["license_status"] = license_status
+    filter_kwargs[f"{filter_name}__gte"] = start_date
+    filter_kwargs[f"{filter_name}__lte"] = end_date
+
     instance = Business.objects.filter(**filter_kwargs)
+    count_businesses = Business.objects.filter(**filter_kwargs).count()
     serializer = BusinessSerializer(instance, many=True)
-    return Response({"businesses": serializer.data})
+    return Response(
+        {"number_of_businesses": count_businesses, "businesses": serializer.data}
+    )
